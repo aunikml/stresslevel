@@ -1,0 +1,26 @@
+# Python bytecode (temporary files)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Database (This is the most important one)
+# We ignore the .db file so your local testing data doesn't overwrite 
+# the server data and vice-versa.
+*.db
+*.sqlite3
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# User data / CSV reports
+*.csv
+
+# Streamlit secrets (if you use them later)
+.streamlit/secrets.toml
